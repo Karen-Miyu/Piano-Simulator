@@ -6,6 +6,16 @@ body {
     background: linear-gradient(to top, rgb(0, 14, 4) 0.2%, #52ac68);
 }
 
+img {
+    width: 10rem;
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    margin-top: 25%;
+    margin-left: 65%;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
 .container {
     width: 780px;
     border-radius: 20px;
